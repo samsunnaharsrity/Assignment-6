@@ -6,7 +6,9 @@ const Navbar = () => {
 
 
 
-<div className="navbar bg-base-100 shadow-sm mx-auto px-30">
+<div className="navbar bg-base-100 shadow-sm w-full">
+
+<div className='flex justify-between w-full lg:w-10/12 mx-auto '>
 <div className="navbar-start ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -41,9 +43,10 @@ const Navbar = () => {
 <div className="navbar-end gap-4 ">
     <MdOutlineShoppingCart className='hidden md:flex'/>
     <a className='font-bold hidden md:flex' href="/">LogIn</a>
-    <a className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
+    <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</button>
 </div>
 
+</div>
 </div>
 
 
