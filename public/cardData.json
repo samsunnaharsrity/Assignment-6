@@ -1,7 +1,7 @@
 [
   {
     "title": "AI Writing Pro",
-    "price": "$29",
+    "price": "29",
     "badge": "Best Seller",
     "image": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
     "description": "Generate high-quality content, blogs and marketing copy using AI.",
@@ -13,7 +13,7 @@
   },
   {
     "title": "Design Templates Pack",
-    "price": "$49 One-Time",
+    "price": "49 ",
     "badge": "Popular",
     "image": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png",
     "description": "2000+ premium templates for social media and presentations.",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Premium Stock Assets",
-    "price": "$19/mo",
+    "price": "19",
     "badge": "New",
     "image": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png",
     "description": "Access millions of royalty-free photos and videos.",
@@ -37,7 +37,7 @@
   },
   {
     "title": "Automation Toolkit",
-    "price": "$79/mo",
+    "price": "79",
     "badge": "Popular",
     "image": "https://cdn-icons-png.flaticon.com/512/906/906334.png",
     "description": "Automate repetitive tasks and streamline workflows easily.",
@@ -49,7 +49,7 @@
   },
   {
     "title": "Resume Builder Pro",
-    "price": "$15 One-Time",
+    "price": "15",
     "badge": "New",
     "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
     "description": "Create professional resumes that stand out in interviews.",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Social Media Content",
-    "price": "$39/mo",
+    "price": "39",
     "badge": "Best Seller",
     "image": "https://cdn-icons-png.flaticon.com/512/733/733547.png",
     "description": "Create engaging content for all social platforms easily.",
@@ -75,7 +75,7 @@
 ,
 {
   "title": "Video Editing Suite",
-  "price": "$59/mo",
+  "price": "59",
   "badge": "Popular",
   "image": "https://cdn-icons-png.flaticon.com/512/3039/3039385.png",
   "description": "Professional video editing tools for creators.",
@@ -87,7 +87,7 @@
 },
 {
   "title": "SEO Optimization Tool",
-  "price": "$25/mo",
+  "price": "25",
   "badge": "Popular",
   "image": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png",
   "description": "Boost your website ranking with advanced SEO tools.",
@@ -99,7 +99,7 @@
 },
 {
   "title": "Email Marketing Pro",
-  "price": "$19/mo",
+  "price": "19",
   "badge": "New",
   "image": "https://cdn-icons-png.flaticon.com/512/561/561127.png",
   "description": "Create and manage email campaigns effortlessly.",

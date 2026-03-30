@@ -21,8 +21,16 @@ const dataPromise = getData();
 
 
 function App() {
+
+
+//productCart er  
 const [activeCart , setActiveCart] = useState('product')
 //console.log(activeCart);
+
+
+//cart er 
+const [carts , setCarts] = useState([])
+console.log(carts);
 
   return (
     <>
@@ -30,10 +38,10 @@ const [activeCart , setActiveCart] = useState('product')
 <Navbar></Navbar>
 <Banner></Banner>
 <Rate></Rate>
-<ProductCard activeCart={activeCart} setActiveCart={setActiveCart}> </ProductCard>
+<ProductCard activeCart={activeCart} setActiveCart={setActiveCart} carts ={carts}> </ProductCard>
 
-{activeCart === 'product' && <Product dataPromise={dataPromise} />}
-{activeCart === 'cart' && <Cart />}
+{activeCart === 'product' && <Product dataPromise={dataPromise} carts={carts} setCarts ={setCarts} />}
+{activeCart === 'cart' && <Cart carts={carts} setCarts ={setCarts}/>}
 
 <StartSteps></StartSteps>
 <PricingSec></PricingSec>

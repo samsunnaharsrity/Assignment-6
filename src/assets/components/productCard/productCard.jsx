@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const ProductCard = ({activeCart, setActiveCart}) => {
+const ProductCard = ({activeCart, setActiveCart,carts}) => {
 
 
 
@@ -19,7 +19,7 @@ const ProductCard = ({activeCart, setActiveCart}) => {
                 {/* name of each tab group should be unique */}
                 <div className="tabs tabs-box bg-transparent justify-center">
                 <input type="radio" name="my_tabs_1" 
-                className="tab rounded-full w-40"
+                className="tab rounded-full w-40 "
                 aria-label="Products"
                 checked={activeCart === 'product'}
                 onChange={() => setActiveCart('product')}
@@ -30,7 +30,7 @@ const ProductCard = ({activeCart, setActiveCart}) => {
 
                 <input type="radio" name="my_tabs_1"
                 className="tab rounded-full w-40" 
-                aria-label="Cart"
+                aria-label={`Cart (${carts.length})`}
                 checked={activeCart === 'cart'}
                 onChange={() => setActiveCart('cart')}
 

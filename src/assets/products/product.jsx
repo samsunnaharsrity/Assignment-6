@@ -3,7 +3,7 @@ import { FaCheck } from 'react-icons/fa';
 import { Features } from 'tailwindcss';
 import ProductCarts from '../components/productCarts/productCarts';
 
-const Product = ({dataPromise}) => {
+const Product = ({dataPromise ,carts, setCarts}) => {
    
  const products = use(dataPromise)
 
@@ -50,7 +50,7 @@ const Product = ({dataPromise}) => {
 
 
             // </div>
-            <ProductCarts key={product.title} product= {product}></ProductCarts>
+            <ProductCarts key={product.title} product= {product}  carts={carts} setCarts ={setCarts}></ProductCarts>
         )
     }
 </div>
