@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { toast } from 'react-toastify';
 
 const Cart = ({carts,setCarts}) => {
     //console.log(carts);
@@ -10,11 +11,13 @@ const remove = (item) =>{
         cart => cart.title !== item.title 
     )
     setCarts(filteredArray)
+    toast.warning('Remove To Cart')
 }
 
 //Proceed to Checkout
 const clearDataToCart = () =>(
-    setCarts([])
+    setCarts([]),
+    toast.success('All Data Cleared')
 )
 
 

@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 const ProductCard = ({activeCart, setActiveCart,carts}) => {
 
 
-
     return (
         <div>
             <div className='w-8/12 mx-auto mt-10 space-y-5 '>

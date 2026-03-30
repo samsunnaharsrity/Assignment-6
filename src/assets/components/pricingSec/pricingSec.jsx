@@ -11,6 +11,25 @@ const PricingSec = () => {
                 </div>
 
                 {/* card sec */}
+
+                <div>
+                    <div>
+                        <h2>Starter</h2>
+                        <p>Perfect for getting started</p>
+                    </div>
+                    <div>
+                        <p>$0/month</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Access to 10 free tools</li>
+                            <li>Basic templates</li>
+                            <li>Community support</li>
+                            <li>1 project per month</li>
+                        </ul>
+                    </div>
+                    <div></div>
+                </div>
             </div>
         </div>
     );

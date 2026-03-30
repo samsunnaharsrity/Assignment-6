@@ -5,7 +5,9 @@ import rocketImg from '../../../assets/rocket.png'
 
 const StartSteps = () => {
     return (
-        <div className='w-8/12 mx-auto mt-20'>
+        
+<div className='bg-[#F9FAFC] p-10 mt-20'>
+            <div className='w-8/12 mx-auto '>
             <div className='space-y-5'>
                 <h2 className='font-bold text-3xl text-center'>Get Started in 3 Steps</h2>
                 <p className='text-center text-[13px] text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
@@ -54,6 +56,7 @@ const StartSteps = () => {
 
             </div>
         </div>
+</div>
     );
 }
 
