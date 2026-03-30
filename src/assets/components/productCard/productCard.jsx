@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 
 
-const ProductCard = () => {
+const ProductCard = ({activeCart, setActiveCart}) => {
+
+
+
     return (
         <div>
             <div className='w-8/12 mx-auto mt-10 space-y-5 '>
@@ -18,8 +21,9 @@ const ProductCard = () => {
                 <input type="radio" name="my_tabs_1" 
                 className="tab rounded-full w-40"
                 aria-label="Products"
-                onClick={() => ('')}
-                defaultChecked
+                checked={activeCart === 'product'}
+                onChange={() => setActiveCart('product')}
+                
 
                 />
 
@@ -27,7 +31,9 @@ const ProductCard = () => {
                 <input type="radio" name="my_tabs_1"
                 className="tab rounded-full w-40" 
                 aria-label="Cart"
-                onClick={() => ('')}
+                checked={activeCart === 'cart'}
+                onChange={() => setActiveCart('cart')}
+
                 />
                 </div>
                 

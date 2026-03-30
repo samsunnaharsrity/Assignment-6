@@ -8,6 +8,7 @@ import StartSteps from './assets/components/startSteps/startSteps'
 import PricingSec from './assets/components/pricingSec/pricingSec'
 import Product from './assets/products/product'
 import ProductCarts from './assets/components/productCarts/productCarts'
+import Cart from './assets/components/cart/cart'
 
 
 const getData = async () =>{
@@ -20,7 +21,8 @@ const dataPromise = getData();
 
 
 function App() {
-
+const [activeCart , setActiveCart] = useState('product')
+//console.log(activeCart);
 
   return (
     <>
@@ -28,8 +30,10 @@ function App() {
 <Navbar></Navbar>
 <Banner></Banner>
 <Rate></Rate>
-<ProductCard></ProductCard>
-<Product dataPromise= {dataPromise}></Product>
+<ProductCard activeCart={activeCart} setActiveCart={setActiveCart}> </ProductCard>
+
+{activeCart === 'product' && <Product dataPromise={dataPromise} />}
+{activeCart === 'cart' && <Cart />}
 
 <StartSteps></StartSteps>
 <PricingSec></PricingSec>

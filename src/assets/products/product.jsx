@@ -14,7 +14,7 @@ const Product = ({dataPromise}) => {
 
 
     {
-        products.map(product=> 
+        products.map((product )=> 
             // <div className=' '>
             //     <div className='p-4 rounded-2xl space-y-2 shadow-xl border border-zinc-300 h-auto'>
 
@@ -50,7 +50,7 @@ const Product = ({dataPromise}) => {
 
 
             // </div>
-            <ProductCarts product= {product}></ProductCarts>
+            <ProductCarts key={product.title} product= {product}></ProductCarts>
         )
     }
 </div>
