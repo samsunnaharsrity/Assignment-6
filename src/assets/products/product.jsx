@@ -1,15 +1,17 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
 import { Features } from 'tailwindcss';
 
 const Product = ({dataPromise}) => {
    
  const products = use(dataPromise)
-console.log(products);   
 
+const [isBuy , setIsBuy] = useState(false)
 
     return (
 <div className='grid lg:grid-cols-3 gap-5 mt-10 w-8/12 mx-auto '>
+
+
     {
         products.map(product => 
             <div className=' '>
@@ -40,7 +42,8 @@ console.log(products);
                         </div>
 
                         <div>
-                            <button className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-2xl p-2 font-bold text-[10px] '>Buy Now</button>
+                            <button onClick={()=> setIsBuy(true)} className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-2xl p-2 font-bold text-[10px] '>
+                                {isBuy ? 'Add To Cart' : 'Buy Now' }</button>
                         </div>
                 </div>
 

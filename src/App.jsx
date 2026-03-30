@@ -31,6 +31,7 @@ function App() {
 <Product dataPromise= {dataPromise}></Product>
 <StartSteps></StartSteps>
 <PricingSec></PricingSec>
+
  
     </>
 

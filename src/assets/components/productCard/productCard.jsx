@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 const ProductCard = () => {
     return (
@@ -17,7 +18,7 @@ const ProductCard = () => {
                 <input type="radio" name="my_tabs_1" 
                 className="tab rounded-full w-40"
                 aria-label="Products"
-                onClick={() => setActiveTab('model')}
+                onClick={() => ('')}
                 defaultChecked
 
                 />
@@ -26,7 +27,7 @@ const ProductCard = () => {
                 <input type="radio" name="my_tabs_1"
                 className="tab rounded-full w-40" 
                 aria-label="Cart"
-                onClick={() => setActiveTab('cart')}
+                onClick={() => ('')}
                 />
                 </div>
                 
