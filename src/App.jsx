@@ -7,6 +7,7 @@ import ProductCard from './assets/components/productCard/productCard'
 import StartSteps from './assets/components/startSteps/startSteps'
 import PricingSec from './assets/components/pricingSec/pricingSec'
 import Product from './assets/products/product'
+import ProductCarts from './assets/components/productCarts/productCarts'
 
 
 const getData = async () =>{
@@ -29,6 +30,7 @@ function App() {
 <Rate></Rate>
 <ProductCard></ProductCard>
 <Product dataPromise= {dataPromise}></Product>
+
 <StartSteps></StartSteps>
 <PricingSec></PricingSec>
 
