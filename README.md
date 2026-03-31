@@ -14,7 +14,8 @@ IV)React-Toastify (NPM Package)
 V)JSON (for product data)
 VI)React Icon
 VII)imgbb(For Image Url)
-VII)Google Font (for text style)
+VIII)Google Font (for text style)
+IX)netlify (for use live link and customized url)
 
 QUE :- 3 Features about your project.
 ans :3 Features about my project that is:-
