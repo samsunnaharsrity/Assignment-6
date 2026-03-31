@@ -9,7 +9,7 @@ const ProductCarts = ({product,carts, setCarts}) => {
 
 
 const handleBuyBtn = () =>{
-    setIsBuy(true)
+    setIsBuy(!isBuy)
     setCarts([...carts ,product])
     toast.success('Added To Cart')
 }
@@ -29,7 +29,7 @@ const handleBuyBtn = () =>{
             <div className='space-y-2'>
                 <h2 className='text-xl font-bold'>{product.title}</h2>
                 <p className='text-[13px] text-[#627382]'>{product.description}</p>
-                <div className='text-md font-bold'>{product.price}</div>
+                <div className='text-md font-bold'>${product.price} <span className='text-[10px] text-[#627382]'>/month</span></div>
 
 
                 <ul>
@@ -43,7 +43,8 @@ const handleBuyBtn = () =>{
             </div>
 
             <div>
-                <button onClick={handleBuyBtn} className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-2xl p-2 font-bold text-[10px] '>
+                <button onClick={handleBuyBtn} className={` text-white w-full rounded-2xl p-2 font-bold text-[10px] 
+                ${isBuy ? "bg-green-400" : "bg-gradient-to-r from-[#4F39F6] to-[#9514FA]" }`}>
                     {isBuy ? 'Add To Cart' : 'Buy Now' }</button>
             </div>
     </div>

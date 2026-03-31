@@ -48,6 +48,7 @@ const PricingSec = () => {
 
 
                 <div className='space-y-3 shadow-md bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-5 rounded-xl'>
+                    <div className='absolute -mt-8 ml-14 flex  items-center justify-center bg-[#FEF3C6] rounded-full w-[80px] p-1'><button className='  text-[#BB4D00] text-[10px]'>Most Popular</button></div>
                     <div>
                         <h2 className='text-xl font-bold text-white'>Pro</h2>
                         <p className="flex items-center gap-2 text-[13px] text-white">Best for professionals</p>

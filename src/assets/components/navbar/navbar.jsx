@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdOutlineShoppingCart } from "react-icons/md";
 
-const Navbar = () => {
+const Navbar = ({carts}) => {
     return (
 
 
@@ -41,7 +41,13 @@ const Navbar = () => {
 </div>
 
 <div className="navbar-end gap-4 ">
-    <MdOutlineShoppingCart className='hidden md:flex'/>
+    <div className='relative '>
+    <span><MdOutlineShoppingCart className='hidden md:flex w-5 h-5'/>
+    <span className='absolute bg-red-500 text-white rounded-full text-[6px] px-2 py-1 -top-2 -right-2'>{ carts.length }</span>
+    </span>
+           
+        
+    </div>   
     <a className='font-bold hidden md:flex' href="/">LogIn</a>
     <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</button>
 </div>

@@ -33,11 +33,11 @@ const totalPrice = carts.reduce((sum , item) => sum +  Number(item.price) , 0 )
             {
                 carts.length === 0 ? 
                 <p className='flex flex-col text-center items-center gap-5 text-[13px] text-[#627382]'>
-                    <img className='w-[200px] ' src="https://i.ibb.co.com/xKNHJbNX/shopping-cart.webp" alt="" />
+                    <img className='w-[100px] ' src="https://i.ibb.co.com/xKNHJbNX/shopping-cart.webp" alt="" />
                     Your Cart Is Empty</p> :
                 <>
                 <div>
-                                    {<div className='space-y-5'>
+                {<div className='space-y-5'>
                     {
                         carts.map(item =>
                             <div key={item.title} className= 'bg-[#F9FAFC] rounded-xl shadow-xl  '>
