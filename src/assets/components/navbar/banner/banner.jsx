@@ -1,14 +1,18 @@
 import React from 'react';
 import heroImg from '../../../../assets/banner.png'
 import playImg from '../../../../assets/play.png'
+import dotIcon from '../../../../assets/dot.png'
+
+
 const Banner = () => {
     return (
         <div className='w-10/12 lg:w-8/12 mx-auto flex flex-col lg:flex-row justify-between mt-5 '>
             {/* first part */}
             <div className='w-full lg:w-[400px] py-10 space-y-4'>
                 <div>
-                   <button className="bg-[#E1E7FF] rounded-full p-2 font-bold text-[10px]">
-                        <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+                   <button className="bg-[#E1E7FF] rounded-full p-2 font-bold text-[10px] ">
+                        <span className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent flex items-center gap-1">
+                            <img className='w-3' src={dotIcon} alt="" />
                             New: AI-Powered Tools Available
                         </span>
                     </button>
