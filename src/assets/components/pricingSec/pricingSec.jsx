@@ -15,7 +15,7 @@ const PricingSec = () => {
 
                 {/* card sec */}
 
-            <div className='grid grid-cols-3 gap-4'>
+            <div className='grid lg:grid-cols-3 gap-4'>
                 <div className='space-y-3 shadpw-md p-5 bg-[#F2F2F2] rounded-xl'>
                     <div>
                         <h2 className='text-xl font-bold'>Starter</h2>

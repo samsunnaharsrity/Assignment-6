@@ -10,6 +10,7 @@ import Product from './assets/products/product'
 import ProductCarts from './assets/components/productCarts/productCarts'
 import Cart from './assets/components/cart/cart'
 import WorkFlow from './assets/components/workFlow/workFlow'
+import Footer from './assets/components/footer/footer'
 
 
 const getData = async () =>{
@@ -47,6 +48,7 @@ console.log(carts);
 <StartSteps></StartSteps>
 <PricingSec></PricingSec>
 <WorkFlow></WorkFlow>
+<Footer></Footer>
 
  
     </>
