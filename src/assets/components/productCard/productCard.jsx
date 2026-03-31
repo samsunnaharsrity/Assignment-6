@@ -10,7 +10,7 @@ const ProductCard = ({activeCart, setActiveCart,carts}) => {
                 {/* heading */}
                 <div className='space-y-5'>
                     <h1 className='font-bold text-3xl text-center'>Premium Digital Tools</h1>
-                    <p className='text-center text-[13px] text-[#627382]'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
+                    <p className='text-center text-[10px] text-[#627382]'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
                 </div>
 
 

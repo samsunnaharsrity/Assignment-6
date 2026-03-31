@@ -10,7 +10,7 @@ const StartSteps = () => {
             <div className='w-8/12 mx-auto '>
             <div className='space-y-5'>
                 <h2 className='font-bold text-3xl text-center'>Get Started in 3 Steps</h2>
-                <p className='text-center text-[13px] text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
+                <p className='text-center text-[10px] text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
             </div>
 
             <div className='grid  lg:grid-cols-3 gap-5 mt-10 '>
