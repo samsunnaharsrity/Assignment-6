@@ -1,16 +1,25 @@
-# React + Vite
+QUE :- Name of your Project
+ans: My Project name is DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+QUE :- A little Description
+ans: This project is a dynamic management system website . Where  users browse products, add item to their cart, view their product and total price in real time.It features a responsive UI with a tab based navigation system that allows easily switching between product and cart without reloaded page . Also navbar displays a live cart count. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+QUE :- Technology that you use
+ans:
+I)React.js
+II)Tailwind CSS, DaisyUI
+II)JavaScript (ES6+)
+IV)React-Toastify (NPM Package)
+V)JSON (for product data)
+VI)React Icon
+VII)imgbb(For Image Url)
+VII)Google Font (for text style)
 
-## React Compiler
+QUE :- 3 Features about your project.
+ans :3 Features about my project that is:-
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. If use this website user easily browse product and clicked Buy Now button then added their product cart. Then cart automatically updated and calculate their total price 
+2. The Navbar displays a live item count to the cart icon thats why users easily to see how many items are in their cart.
+3. Users can switch between Products to Cart  seamlessly using a tab system. And the UI updates without any page reloaded. 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
