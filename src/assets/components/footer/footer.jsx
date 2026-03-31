@@ -76,12 +76,14 @@ const Footer = () => {
 
 
 </div>  
+<div className='border-t border-[#627382]'> 
 
+</div>
 {/* second part */}
-<aside className="footer sm:footer-horizontal footer-center p-4 text-[#FAFAFA] text-[10px] flex justify-between">
+<aside className="footer sm:footer-horizontal footer-center flex flex-col p-4 text-[#FAFAFA] text-[10px] lg:flex-row justify-between">
 
 <p>© {new Date().getFullYear()} DigiTools - All right reserved </p>
-<div className='flex gap-2'>
+<div className='lg:flex gap-2 '>
     <p>Privacy Policy </p>
     <p>Terms of Service</p>
     <p>Cookies</p>
