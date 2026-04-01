@@ -6,7 +6,7 @@ const Navbar = ({carts}) => {
 
 
 
-<div className="navbar bg-base-100 shadow-sm w-full">
+<div className="navbar bg-base-100 shadow-sm w-full top-0 sticky">
 
 <div className='flex justify-between w-full lg:w-10/12 mx-auto '>
 <div className="navbar-start ">
